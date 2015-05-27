@@ -1,28 +1,28 @@
 module.exports = nativeDescription: "فارسی", englishDescription: "Persian", translation:
   home:
-    slogan: "کد نویسیا با بازی بیاموزید"
+    slogan: "کد نویسی را با بازی بیاموزید"
     no_ie: "متاسفیم اما بازی بر روی مرورگر های اینترنت اکسپلورر نسخه ۹ به قبل اجرا نمی شود" # Warning that only shows up in IE8 and older
     no_mobile: "این بازی برای دستگاه های موبایل طراحی نشده است و بر روی آن ها اجرا نمی شود" # Warning that shows up on mobile devices
     play: "شروع بازی" # The big play button that opens up the campaign view.
-#    old_browser: "Uh oh, your browser is too old to run CodeCombat. Sorry!" # Warning that shows up on really old Firefox/Chrome/Safari
-#    old_browser_suffix: "You can try anyway, but it probably won't work."
-#    ipad_browser: "Bad news: CodeCombat doesn't run on iPad in the browser. Good news: our native iPad app is awaiting Apple approval."
-#    campaign: "Campaign"
-#    for_beginners: "For Beginners"
+    old_browser: "وای نه! مرورگر شما قدیمی تر از آن است که بتوانید بازی کنید! متاسفیم." # Warning that shows up on really old Firefox/Chrome/Safari
+    old_browser_suffix: "شما می توانید سعی کنید که بازی کنید، اما به احتمال زیاد بازی کار نخواهد کرد."
+    ipad_browser: "خبر بد: کدکامبت روی مرورگر آیپد کار نمی کند.خبر خوب: برنامه ی مخصوص آیپد منتظر موافقت اپل است."
+    campaign: "کمپین"
+    for_beginners: "برای تازه کار ها"
 #    multiplayer: "Multiplayer" # Not currently shown on home page
-#    for_developers: "For Developers" # Not currently shown on home page.
-#    or_ipad: "Or download for iPad"
+    for_developers: "برای برنامه نویسان" # Not currently shown on home page.
+    or_ipad: "یا برای آیپد دانلود کنید."
 
   nav:
     play: "سطوح" # The top nav bar entry where players choose which levels to play
-#    community: "Community"
+    community: "انجمن"
     editor: "ویرایشگر"
     blog: "بلاگ"
     forum: "انجمن"
-#    account: "Account"
-#    profile: "Profile"
-#    stats: "Stats"
-#    code: "Code"
+    account: "حساب کاربری"
+    profile: "پروفایل"
+    stats: "آمار"
+    code: "کد"
     admin: "مدیر" # Only shows up when you are an admin
     home: "خانه"
     contribute: "همکاری"
@@ -30,7 +30,7 @@ module.exports = nativeDescription: "فارسی", englishDescription: "Persian",
     about: "درباره"
     contact: "تماس "
     twitter_follow: "دنبال کردن"
-#    teachers: "Teachers"
+    teachers: "معلم ها"
 
   modal:
     close: "بستن"
@@ -104,37 +104,37 @@ module.exports = nativeDescription: "فارسی", englishDescription: "Persian",
   login:
     sign_up: "ایجاد حساب کاربری"
     log_in: "ورود"
-#    logging_in: "Logging In"
+    logging_in: "در حال ورود"
     log_out: "خروج"
-#    forgot_password: "Forgot your password?"
+    forgot_password: "پسورد خود را فراموش کرده اید؟"
 #    authenticate_gplus: "Authenticate G+"
 #    load_profile: "Load G+ Profile"
 #    finishing: "Finishing"
-#    sign_in_with_facebook: "Sign in with Facebook"
-#    sign_in_with_gplus: "Sign in with G+"
-#    signup_switch: "Want to create an account?"
+    sign_in_with_facebook: "ثبت نام با حساب فیسبوک"
+    sign_in_with_gplus: "ثبت نام با حساب G+"
+    signup_switch: "می خواهید یک حساب کاربری ایجاد کنید؟"
 
   signup:
     email_announcements: "دریافت اطلاعیه ها توسط ایمیل"
     creating: "...در حال ایجاد حساب کاربری"
     sign_up: "ثبت نام"
     log_in: "ورود به وسیله رمز عبور"
-#    social_signup: "Or, you can sign up through Facebook or G+:"
-#    required: "You need to log in before you can go that way."
-#    login_switch: "Already have an account?"
+    social_signup: "یا می توانید با حساب فیسبوک یا G+ ثبت نام کنید:"
+    required: "قبل از این که به آن سمت بروید، لازم است که وارد حساب کاربری خود شوید."
+    login_switch: "قبلا حساب کاربری ساخته اید؟"
 
   recover:
     recover_account_title: "بازیابی حساب کاربری"
     send_password: "ارسال رمز عبور بازیابی شده"
-#    recovery_sent: "Recovery email sent."
+    recovery_sent: "ایمیل بازیابی فرستاده شد."
 
-#  items:
-#    primary: "Primary"
-#    secondary: "Secondary"
-#    armor: "Armor"
+  items:
+    primary: "اصلی"
+    secondary: "فرعی"
+    armor: "زره"
 #    accessories: "Accessories"
-#    misc: "Misc"
-#    books: "Books"
+    misc: "متفرقه"
+    books: "کتاب ها"
 
   common:
 #    back: "Back" # When used as an action verb, like "Navigate backward"
@@ -161,11 +161,11 @@ module.exports = nativeDescription: "فارسی", englishDescription: "Persian",
 #    save_changes: "Save Changes"
 
   general:
-#    and: "and"
+    and: "و"
     name: "نام"
-#    date: "Date"
-#    body: "Body"
-#    version: "Version"
+    date: "تاریخ"
+    body: "بدنه"
+    version: "ورژن"
 #    pending: "Pending"
 #    accepted: "Accepted"
 #    rejected: "Rejected"
@@ -188,9 +188,9 @@ module.exports = nativeDescription: "فارسی", englishDescription: "Persian",
     or: "یا"
 #    subject: "Subject"
     email: "ایمیل"
-#    password: "Password"
+    password: "پسورد"
     message: "پیام"
-#    code: "Code"
+    code: "کد"
 #    ladder: "Ladder"
 #    when: "When"
 #    opponent: "Opponent"
